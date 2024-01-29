@@ -1,0 +1,404 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Inter', sans-serif;
+}
+button{
+    background-color:white;
+    text-decoration: bold;
+    
+}
+nav{
+    background-color: rgb(34, 36, 40);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+.nav-left{
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+}
+.nav-left img{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.nav-text{
+    color: #fff;
+    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin: 20px;
+    font-weight: 700;
+}
+
+/* Content-1 Css */
+.content-1{
+    background-color: rgb(34, 36, 40);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 74px 0px;
+}
+.content-1-left{
+    width: 500px;
+}
+.div-text{
+    font-weight:900;
+    color: #fff;
+    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Inter', sans-serif;
+    padding: 10px;
+}
+.div-1{
+    font-size: 42px;
+    font-weight:900;
+    color: #80A3EA;
+}
+.div-2{
+    font-size: 82px;
+    font-weight:900;
+    color: #fff;
+}
+.div-3{
+    font-size: 20px;
+    font-weight:400;
+    color: #fff;
+}
+.div-4 button{
+    background-color: #006dff;
+    color: #fff;
+    padding: 16px 22px;
+    border-radius: 16px;
+    border: none;
+    font-size: 20px;
+    font-weight: 550;
+    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+
+}
+.content-1-right{
+    width: 500px;
+    height: 540px;
+    /* border: 5px #fff solid; */
+    /* overflow: scroll; */
+}
+.content-1-right img{
+    /* width: auto;
+    height: auto; */
+    /* display: block; */
+    width: 500px;
+    height: 540px;
+    object-fit: fill;
+}
+
+/* Content-2 Css */
+.content-2{
+    height: 400px;
+    background-color: rgb(244, 249, 253);
+}
+.content-2-top{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 50px; */
+    padding-top: 50px;
+    font-size: 32px;
+    color: black;
+}
+.content-2-bottom{
+     margin-top: 50px;
+    height: 800px; 
+    text-align: center;
+}
+.content-2-bottom img{
+    width: 1050px;
+    height: 200px;
+}
+
+/* Content-3 Css */
+.content-3{
+    height: 900px;
+    background-image: url("https://juspay.in/static/bg_circular_dotted_white.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.content-3-top p{
+    color: rgb(8, 36, 73);
+    font-size: 4rem;
+    width: 640px;
+    padding-left: 150px;
+}
+.content-3-bottom{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 150px;
+}
+.content-3-div{
+    color: #234EA4;
+}
+.content-3-text-1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.content-3-text-2{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* Content-4 Css */
+.content-4{
+    background-color: rgb(34, 36, 40);
+    height: 2200px;
+}
+.content-4-1{
+    font-size: 64px;
+    font-weight: 550;
+    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    padding-top: 100px;
+    padding-left: 170px;
+    padding-right: 375px;
+    margin-bottom: 55px;
+}
+.content-4-2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content-4-2-left{
+    width: 550px;
+    height: 221px;
+    /* border: 5px beige solid; */
+}
+.content-4-2-left img{
+    width: 550px;
+    height: 221px;
+    padding: 30px;
+}
+.content-4-2-right{
+    width: 550px;
+    height: 221px;
+    padding: 30px;
+}
+.part-1{
+    color: #fff;
+    opacity: 0.6;
+    font-weight: 500;
+    font-size:  .8125rem;
+}
+.part-2{
+    color: #80a3ea;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.part-3{
+    color: #fff;
+    font-family: var(--font-body);
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.border-content-4{
+    border-bottom: 3px #fff dashed;
+}
+.border-content{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.border-1{
+    width: 600px;
+    height: 1px;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='white' stroke-width='2' stroke-dasharray='15%2c 15' stroke-dashoffset='53' stroke-linecap='square'/%3e%3c/svg%3e");
+}
+
+/* Content-5 Css */
+.content-5{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content-5-left{
+    width: 420px;
+    height: 400px;
+}
+.left-1{
+    color: rgb(139, 158, 196);
+    font-size: 4rem;
+    letter-spacing: -0.03em;
+    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.left-2{
+    color: rgb(255, 255, 255);
+    font-family: var(--font-body);
+    font-size: 1.125rem;
+    line-height: 1.9;
+    padding-right: 3rem;
+}
+.left-3 button{
+    padding: 14px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #ffffff;
+}
+
+
+.content-5-right{
+    width: 760px;
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+.box{
+    background-color: #323646;
+    height: 350px;
+    width: 348px;
+    border-radius: 10px;
+    margin: 16px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.box-up{
+    height: 45%;
+    background-image: url("https://juspay.in/product__insidebanner.png");
+    padding-left: 30px;
+    padding-top: 8px;
+    
+}
+.box-down h3{
+    color: #fff;
+    font-size: 2rem;
+    letter-spacing: -.03em;
+    padding: 25px;
+}
+.box-down p{
+    color: #fff;
+    font-family: var(--font-body);
+    font-size: 1.125rem;
+    line-height: 1.9;
+    opacity: .7;
+    padding-left: 25px;
+    padding-right: 20px;
+
+}
+
+/* Content-6 */
+.content-6{
+    /* background-color: #f4f9fd; */
+    background-color: #f4f9fd;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    color: #082449;
+    letter-spacing: -.03em;
+    font-size: 40px;
+}
+
+/* Content-7 Css */
+.content-7{
+    background-color: #f4f9fd;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+.card{
+    background-color: #ffffff;
+    width: 570px;
+    height: 423px;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 10px 20px 130px 13px rgba(32,24,63,.1);
+}
+.card-1{
+    color: #234ea4;
+    font-family: Inter V;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+.card-2{
+    color: black;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.card-3{
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+}
+
+/* Content-8 Css */
+.content-8{
+    justify-content: center;
+    font-family: var(--font-header);
+    font-size: 45px;
+    letter-spacing: -0.03em;
+    line-height: 1.2;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.content-8-1{
+    color: rgb(8, 36, 73);
+}
+.content-8-2{
+    color: rgb(139, 158, 196);;
+}
+
+/* Content-9 Css */
+.content-9{
+    display: flex;
+    justify-content: space-around;
+}
+.card-9{
+    background-color: #0F0F0F;
+}
+.card-9-1{
+    color: #6ecbcc;
+    word-spacing: 0%;
+    font-weight: 505;
+}
+.cont-9-1{
+    width: 450px;
+    padding-left: 71px;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+.cont-9-2{
+    padding-left: -10px;
+    display: flex;
+    align-items: center;
+    font-weight: 550;
+}
+.content-10{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #f4f9fd;;
+    /* border-top: 1px #ccc solid; */
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+.title{
+    font-weight: 700;
+}
+.divi{
+    padding: 20px;
+}
+.divi p{
+    font-size: 20px;
+    padding: 10px;
+}
